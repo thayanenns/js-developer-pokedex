@@ -145,6 +145,38 @@
     border: none;
     border-radius: 1rem;
 }
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+
+.modal img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.details-button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 50%;
+    width: 50%;
+    font-size: small;
+  }
+  
+.details-button:hover {
+    background-color: #0056b3;
+  }
 
 @media screen and (min-width: 380px) {
     .pokemons {
